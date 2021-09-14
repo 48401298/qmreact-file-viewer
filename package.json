@@ -9,7 +9,7 @@
     "url": "https://github.com/48401298/qmreact-file-viewer.git"
   },
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack -d --watch", 
     "build": "webpack -p --progress",
     "start": "node ./scripts/start.js",
     "lint": "node_modules/.bin/eslint ./src/**/*.jsx",
