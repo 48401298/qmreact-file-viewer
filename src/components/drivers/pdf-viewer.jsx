@@ -154,13 +154,13 @@ export default class PDFDriver extends React.Component {
         <div className="pdf-viewer" ref={node => this.container = node} >
           <div className="pdf-controlls-container">
             <div className="view-control" onClick={this.increaseZoom} >
-              <i className="zoom-in" />zoom-in
+              <i className="zoom-in" />
             </div>
             <div className="view-control" onClick={this.resetZoom}>
               <i className="zoom-reset" />
             </div>
             <div className="view-control" onClick={this.reduceZoom}>
-              <i className="zoom-out" />zoom-out
+              <i className="zoom-out" />
             </div>
           </div>
           {this.renderLoading()}
